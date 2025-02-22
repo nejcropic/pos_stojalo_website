@@ -3,7 +3,7 @@
   width: 100%;
   top: 0;
   background-color: transparent;
-  padding-top: 15svh;
+  padding-top: 20svh;
 }
 
 /* Button styles */
@@ -28,7 +28,7 @@
   color: var(--black);
 }
 
-/* .home-wrapper img {
+.home-wrapper img {
   height: auto;
   width: auto;
 }
@@ -37,4 +37,4 @@
   .home-wrapper img {
     width: 100%;
   }
-} */
+}

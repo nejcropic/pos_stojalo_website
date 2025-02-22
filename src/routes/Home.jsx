@@ -37,6 +37,7 @@ function Home() {
         }}
       />
       <div className="home-wrapper">
+        <img src={Naslovnica} alt="" />
         <button onClick={scrollDown} className="scroll-button">
           Cenik
         </button>

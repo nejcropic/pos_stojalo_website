@@ -54,13 +54,10 @@ const PriceList = ({ refs }) => {
           <div className="popup-content">
             <h2>Kontaktirajte nas</h2>
             <div className="popup-buttons">
-              <a
-                href="mailto:example@example.com"
-                className="popup-button email"
-              >
+              <a href="mailto:info@brecelj.eu" className="popup-button email">
                 <img src={MailIcon} alt="" />
               </a>
-              <a href="tel:+123456789" className="popup-button phone">
+              <a href="tel:+38640772130" className="popup-button phone">
                 <img src={PhoneIcon} alt="" />
               </a>
             </div>
