@@ -1,0 +1,40 @@
+.home-wrapper {
+  height: 100svh;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
+  padding-top: 15svh;
+}
+
+/* Button styles */
+.scroll-button {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--fontMain);
+}
+
+/* Hover & Active effects */
+.scroll-button:hover {
+  color: var(--black);
+}
+
+/* .home-wrapper img {
+  height: auto;
+  width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .home-wrapper img {
+    width: 100%;
+  }
+} */
