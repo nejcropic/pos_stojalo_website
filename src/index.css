@@ -48,18 +48,19 @@ html {
 .App {
   text-align: center;
   background-image: url("./images/naslovnica.png");
-  background-color: black; /* Black background for areas not covered by the image */
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-color: black; /* Set background to black */
+  background-size: contain; /* Keeps original image size */
+  background-attachment: fixed;
   background-position: center center;
+  background-repeat: no-repeat;
 
-  /* Fix for iOS Safari */
-  background-attachment: scroll;
-
-  /* Special Fix for iOS (Optional) */
+  /* Special Fix for iOS (Safari Only) */
   @supports (-webkit-touch-callout: none) {
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: contain;
   }
+
+  min-height: 100vh; /* Ensures the full viewport height is always covered */
 }
 
 a {
