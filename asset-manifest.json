@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pos_stojalo_website/static/css/main.043ca3a2.css",
+    "main.js": "/pos_stojalo_website/static/js/main.b1108e1b.js",
+    "static/media/posamicno_1.jpg": "/pos_stojalo_website/static/media/posamicno_1.93d538cf6f4339b2210e.jpg",
+    "static/media/skupna_2.jpg": "/pos_stojalo_website/static/media/skupna_2.1612f0ac95473d65f2f3.jpg",
+    "static/media/posamicno_2.jpg": "/pos_stojalo_website/static/media/posamicno_2.2a277bf3ba907c43ca56.jpg",
+    "static/media/skupna_1.jpg": "/pos_stojalo_website/static/media/skupna_1.51fd628ef2b437f39f83.jpg",
+    "static/media/naslovnica.png": "/pos_stojalo_website/static/media/naslovnica.51e594299996def9a006.png",
+    "static/media/posamicno_3.jpg": "/pos_stojalo_website/static/media/posamicno_3.8cba9ad86a493947eaeb.jpg",
+    "static/media/phone-call.png": "/pos_stojalo_website/static/media/phone-call.9f67e819001cd616ba13.png",
+    "static/media/mail.png": "/pos_stojalo_website/static/media/mail.7f0432c3a7d36f687c69.png",
+    "index.html": "/pos_stojalo_website/index.html",
+    "main.043ca3a2.css.map": "/pos_stojalo_website/static/css/main.043ca3a2.css.map",
+    "main.b1108e1b.js.map": "/pos_stojalo_website/static/js/main.b1108e1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.043ca3a2.css",
+    "static/js/main.b1108e1b.js"
+  ]
+}
