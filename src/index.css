@@ -14,7 +14,7 @@
   /* fonts */
   --fontMain: "Anton", "Bebas Neue", "Oswald", sans-serif;
 
-  --fontFamily-dm_sans: "DM Sans", sans-serif;
+  --fontSecond: "Oswald", sans-serif;
   /* font size */
   --fontSizePc: 2rem;
   --fontSizePhone: 1.5rem;
@@ -64,6 +64,36 @@ html {
   min-height: 100vh; */ /* Ensures the full viewport height is always covered */
 }
 
+.main-wrapper {
+  height: auto;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.main-container {
+  padding: 1rem;
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.main-container h1 {
+  color: var(--secondaryColor);
+  font-size: 7rem;
+  font-weight: 100;
+  font-family: var(--fontMain);
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.right {
+  text-align: right;
+}
+@media screen and (max-width: 1000px) {
+  .main-container h1 {
+    font-size: 4rem;
+  }
+}
 a {
   text-decoration: none;
 }

@@ -1,0 +1,46 @@
+ol {
+  list-style-position: inside; /* Ensure numbers align properly */
+  padding-left: 0;
+}
+.prednosti-divider {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.prednosti-item {
+  margin: 0 0 2rem 0;
+  color: var(--secondaryColor);
+  font-size: 1.5rem;
+  font-family: var(--fontSecond);
+}
+.prednosti-item {
+  text-align: right; /* Default alignment */
+  padding-left: 5rem;
+  padding-right: 0rem;
+}
+
+.prednosti-item:nth-child(even) {
+  text-align: left; /* Align every second item to the left */
+  padding-left: 0rem;
+  padding-right: 5rem;
+}
+
+.prednosti-item h2 {
+  font-size: 1.5rem;
+  color: var(--secondaryColor);
+  display: inline; /* Keeps title on the same line as number */
+  margin-left: 10px; /* Adjust spacing from number */
+}
+.prednosti-item p {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+@media screen and (max-width: 1000px) {
+  .prednosti-divider {
+    flex-direction: column;
+  }
+  .prednosti-container h1 {
+    font-size: 4rem;
+  }
+}

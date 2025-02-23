@@ -15,6 +15,8 @@ import Skupna_2 from "./images/skupna_2.jpg";
 
 import PhoneIcon from "./icons/phone-call.png";
 import MailIcon from "./icons/mail.png";
+import Dimenzije1 from "./images/dimenzije1.png";
+import Dimenzije2 from "./images/dimenzije2.png";
 
 const PreloadImages = () => {
   useEffect(() => {
@@ -29,6 +31,8 @@ const PreloadImages = () => {
       Skupna_2,
       PhoneIcon,
       MailIcon,
+      Dimenzije1,
+      Dimenzije2,
     ];
 
     imagesToPreload.forEach((imageSrc) => (new Image().src = imageSrc));
@@ -46,6 +50,8 @@ export {
   Skupna_2,
   PhoneIcon,
   MailIcon,
+  Dimenzije1,
+  Dimenzije2,
 };
 
 const rootElement = document.getElementById("root");

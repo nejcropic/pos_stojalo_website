@@ -1,0 +1,98 @@
+.dimenzije-container h2 {
+  font-family: var(--fontSecond);
+  font-size: 3rem;
+  color: var(--secondaryColor);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.dimenzije-item {
+  margin-bottom: 2rem;
+  color: var(--secondaryColor);
+  font-size: 1.5rem;
+  font-family: var(--fontSecond);
+  display: flex;
+  flex-direction: row;
+}
+.dimenzije-item {
+  margin: 2rem auto;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+}
+.dimenzije-item ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
+.dimenzije-item li {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--white);
+  margin-bottom: 0.3rem;
+}
+.dimenzije-item p {
+  display: inline;
+  color: var(--secondaryColor);
+}
+@media screen and (max-width: 1000px) {
+  .dimenzije-item {
+    flex-direction: column;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .dimenzije-container h1 {
+    font-size: 4rem;
+  }
+  .dimenzije-item li {
+    font-size: 0.9rem;
+  }
+
+  .dimenzije-container h2 {
+    font-size: 2rem;
+  }
+}
+
+.dimenzije-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 60%;
+}
+.dimenzije-divider img {
+  width: 100%;
+  position: relative;
+  bottom: 0%;
+}
+.column {
+  flex-direction: column;
+  height: 40vh;
+}
+.dimenzije-bigger {
+  height: auto;
+  width: 40%;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 1000px) {
+  .dimenzije-item img {
+    height: auto;
+    width: 100%;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .dimenzije-divider {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+  .dimenzije-divider img {
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+  }
+  .dimenzije-bigger {
+    width: 90%;
+  }
+}

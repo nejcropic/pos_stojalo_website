@@ -1,18 +1,16 @@
-.price-container {
-  text-align: center;
-  padding: 1rem;
-  background-color: var(--mainColor);
-  font-family: var(--fontMain);
-  min-height: 100svh;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  padding-top: 25svh;
-}
 @media screen and (max-width: 1000px) {
   .price-container {
     padding-top: 0;
   }
+}
+
+.price-container h1 {
+  color: var(--secondaryColor);
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: var(--fontMain);
+  line-height: 1.2;
+  margin-bottom: 2rem;
 }
 .title {
   font-size: 2rem;
@@ -23,7 +21,9 @@
 .subtitle {
   font-size: 1.2rem;
   color: var(--white);
-  margin: 30px 0 20px 0;
+  margin: 10px 0 20px 0;
+  font-family: var(--fontMain);
+  text-align: center;
 }
 
 .button-container {
@@ -118,6 +118,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 5;
 }
 
 .popup-content {

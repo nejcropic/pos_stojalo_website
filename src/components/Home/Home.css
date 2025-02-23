@@ -3,7 +3,9 @@
   width: 100%;
   top: 0;
   background-color: transparent;
-  padding-top: 20svh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Button styles */
@@ -31,10 +33,14 @@
 .home-wrapper img {
   height: auto;
   width: auto;
+  margin: auto;
 }
 
 @media screen and (max-width: 1000px) {
   .home-wrapper img {
     width: 100%;
+  }
+  .home-wrapper {
+    padding-top: 20svh;
   }
 }

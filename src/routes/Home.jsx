@@ -3,37 +3,39 @@ import "../components/Home/Home.css";
 import BackgroundSlider from "../components/BackgroundSlider/BackgroundSlider";
 import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
-/* 
-import Projekti from "../components/Projekti/Projekti";
-import Services from "../components/Services/Services";
-import Kontakt from "../components/Kontakt/Kontakt"; */
+
+import Kontakt from "../components/Kontakt/Kontakt";
 import PriceList from "../components/PriceList/PriceList";
 import Galerija from "../components/Galerija/Galerija";
 import { Naslovnica } from "..";
+import Prednosti from "../components/Prednosti/Prednosti";
+import Ponudba from "../components/Ponudba/Ponudba";
+import Dimenzije from "../components/Dimenzije/Dimenzije";
 function Home() {
+  const ponudbaRef = useRef(null);
+  const prednostiRef = useRef(null);
+  const dimenzijeRef = useRef(null);
   const cenikRef = useRef(null);
-  const galerijaRef = useRef(null);
+  const kontaktRef = useRef(null);
 
   const scrollDown = () => {
-    window.scrollBy({
-      top: window.innerHeight, // Scrolls down by 100vh
-      behavior: "smooth", // Enables smooth scrolling
-    });
+    if (cenikRef.current) {
+      cenikRef.current.scrollIntoView({
+        behavior: "smooth", // Enables smooth scrolling
+        block: "start", // Aligns to the top of the section
+      });
+    }
   };
+
   return (
     <>
-      {/* 
-    <Hero
-      storitveRef={storitveRef}
-      projektiRef={projektiRef}
-      kontaktRef={kontaktRef}
-    />
-    <Services ref={storitveRef} />
-    <Projekti ref={projektiRef} />
-    <Kontakt kontaktRef={kontaktRef} /> */}
       <NavBar
         refs={{
+          ponudbaRef,
+          prednostiRef,
+          dimenzijeRef,
           cenikRef,
+          kontaktRef,
         }}
       />
       <div className="home-wrapper">
@@ -44,6 +46,21 @@ function Home() {
       </div>
       {/* 
       <BackgroundSlider /> */}
+      <Ponudba
+        refs={{
+          ponudbaRef,
+        }}
+      />
+      <Prednosti
+        refs={{
+          prednostiRef,
+        }}
+      />
+      <Dimenzije
+        refs={{
+          dimenzijeRef,
+        }}
+      />
       <PriceList
         refs={{
           cenikRef,
@@ -53,8 +70,9 @@ function Home() {
       <Galerija
         refs={{
           galerijaRef,
-        }}
-      /> */}
+        }} 
+      />*/}
+      <Kontakt refs={{ kontaktRef }} />
       <Footer />
     </>
   );
