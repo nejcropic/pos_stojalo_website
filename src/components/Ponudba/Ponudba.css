@@ -1,3 +1,6 @@
+.middle {
+  text-align: center;
+}
 .ponudba-container h2 {
   font-family: var(--fontSecond);
   font-size: 1.5rem;
@@ -10,12 +13,20 @@
   font-family: var(--fontSecond);
   display: flex;
   flex-direction: row;
-}
-.ponudba-item {
+  min-height: 70vh;
+  justify-content: flex-end;
   margin: 2rem auto;
   align-items: center;
-  justify-content: center;
+  width: 100%;
 }
+
+.ponudba-item img {
+  height: 50vh;
+  width: auto;
+  border: 4px solid var(--white);
+  margin-left: 1rem;
+}
+
 .ponudba-item ul {
   list-style-position: inside;
 }
@@ -35,8 +46,16 @@
   .ponudba-container h1 {
     font-size: 4rem;
   }
+
+  .ponudba-item img {
+    margin-left: 0rem;
+  }
 }
 
+.text-divider {
+  margin-left: 1rem;
+  width: auto;
+}
 .image-divider {
   display: flex;
   flex-direction: row;
@@ -45,11 +64,6 @@
 .column {
   flex-direction: column;
   height: 40vh;
-}
-.ponudba-item img {
-  height: 50vh;
-  width: auto;
-  margin-right: 2rem;
 }
 .image-bigger {
   height: 70vh !important;
@@ -63,6 +77,9 @@
   }
   .image-divider {
     flex-direction: column;
+  }
+  .text-divider {
+    margin-left: 0rem;
   }
 }
 

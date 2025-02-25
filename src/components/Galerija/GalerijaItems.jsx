@@ -1,5 +1,5 @@
-import Skupna1 from "../../images/skupna_1.jpg";
-import Skupna2 from "../../images/skupna_2.jpg";
+import Skupna1 from "../../images/skupaj_1.JPG";
+import Skupna2 from "../../images/skupaj_2.JPG";
 import Posamezno1 from "../../images/posamicno_1.jpg";
 import Posamezno2 from "../../images/posamicno_2.jpg";
 import Posamezno3 from "../../images/posamicno_3.jpg";

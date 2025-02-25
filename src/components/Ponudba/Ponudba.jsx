@@ -11,10 +11,9 @@ import {
 export default function Ponudba({ refs }) {
   return (
     <div className="main-wrapper" ref={refs.ponudbaRef}>
-      <div className="main-container right">
+      <div className="main-container">
         <h1>PONUDBA</h1>
-        <div className="ponudba-item reverse">
-          <img src={Skupna_1} alt="" />
+        <div className="ponudba-item">
           <div className="text-divider">
             <h2>KOMPLET 1</h2>
             <ul>
@@ -22,6 +21,7 @@ export default function Ponudba({ refs }) {
               <li>Navadno stojalo 2x</li>
             </ul>
           </div>
+          <img src={Skupna_1} alt="" />
         </div>
         <hr className="ponudba-line" />
         <div className="ponudba-item">
@@ -32,8 +32,8 @@ export default function Ponudba({ refs }) {
               <li>Navadno stojalo 1x</li>
             </ul>
           </div>
-          <img src={Posamicno_2} alt="" />
           <img src={Posamicno_3} alt="" />
+          <img src={Skupna_2} alt="" />
         </div>
         <hr className="ponudba-line" />
         <div className="ponudba-item ">

@@ -6,6 +6,7 @@
   text-align: center;
   scroll-snap-align: end;
   height: 5vh;
+  font-family: var(--fontSecond);
 }
 
 .footer-container {
@@ -46,8 +47,7 @@
 }
 
 .footer-copyrights a {
-  color: var(--secondaryColor);
-  text-decoration: none;
+  color: var(--white);
 }
 @media screen and (max-width: 1000px) {
   /* .footer-container {

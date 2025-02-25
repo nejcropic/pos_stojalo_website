@@ -6,11 +6,11 @@ import { Logo, Logo_transparent } from "../..";
 export default function Kontakt({ refs }) {
   return (
     <div className="main-wrapper" ref={refs.kontaktRef}>
-      <hr className="dimenzije-line" />
       <div className="main-container center">
         <h1>KONTAKTIRAJTE NAS:</h1>
         <div className="kontakt-divider">
-          <a href="tel:+38640772130">LAN: 040 772 130</a>
+          <a href="tel:+38640772130">040 772 130</a>
+          <a href="tel:+38641382153">041 382 153</a>
           <a href="mailto:info@brecelj.eu">INFO@BRECELJ.EU</a>
 
           <div className="link-divider">

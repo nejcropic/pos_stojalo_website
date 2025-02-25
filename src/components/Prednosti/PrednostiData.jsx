@@ -1,7 +1,7 @@
 export const prednostiData = [
   {
     title: "Neposreden stik",
-    text: "Omogoča vam neposredno interakcijo s svojimi strankami. Tako krepite zaupanje in odnose s potršniki.",
+    text: "Omogoča vam neposredno interakcijo s svojimi strankami. Tako krepite zaupanje in odnose s potencialnimi kupci.",
   },
   {
     title: "Povečana prepoznavnost",
@@ -21,6 +21,6 @@ export const prednostiData = [
   },
   {
     title: "Idealno za dogodke",
-    text: "Udeležba na sejmih in drugih dogodkih s profesionalnim stojalom povečuje vidljivost in privlačnost blagovne znamke",
+    text: "Udeležba na sejmih in drugih dogodkih s profesionalnim stojalom povečuje pozornost in privlačnost vaše blagovne znamke",
   },
 ];

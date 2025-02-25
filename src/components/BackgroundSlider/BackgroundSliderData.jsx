@@ -1,6 +1,6 @@
 //for computer
-import Skupna1 from "../../images/skupna_1.jpg";
-import Skupna2 from "../../images/skupna_2.jpg";
+import Skupna1 from "../../images/skupaj_1.JPG";
+import Skupna2 from "../../images/skupaj_2.JPG";
 
 export const sliderData = [
   {

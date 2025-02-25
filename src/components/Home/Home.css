@@ -8,6 +8,12 @@
   text-align: center;
 }
 
+.home-wrapper img {
+  height: 90%;
+  width: auto;
+  margin: auto;
+}
+
 /* Button styles */
 .scroll-button {
   position: absolute;
@@ -30,14 +36,9 @@
   color: var(--black);
 }
 
-.home-wrapper img {
-  height: auto;
-  width: auto;
-  margin: auto;
-}
-
 @media screen and (max-width: 1000px) {
   .home-wrapper img {
+    height: auto;
     width: 100%;
   }
   .home-wrapper {

@@ -10,8 +10,8 @@ import Posamicno_1 from "./images/posamicno_1.jpg";
 import Posamicno_2 from "./images/posamicno_2.jpg";
 import Posamicno_3 from "./images/posamicno_3.jpg";
 
-import Skupna_1 from "./images/skupna_1.jpg";
-import Skupna_2 from "./images/skupna_2.jpg";
+import Skupna_1 from "./images/skupaj_1.JPG";
+import Skupna_2 from "./images/skupaj_2.JPG";
 
 import PhoneIcon from "./icons/phone-call.png";
 import MailIcon from "./icons/mail.png";

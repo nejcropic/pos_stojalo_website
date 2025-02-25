@@ -9,7 +9,7 @@ const PriceList = ({ refs }) => {
 
   return (
     <div className="main-wrapper" ref={refs.cenikRef}>
-      <div className="main-container">
+      <div className="main-container middle">
         <h1>NAJEM STOJALA</h1>
         <p className="subtitle">Izberite trajanje najema</p>
 
@@ -46,7 +46,7 @@ const PriceList = ({ refs }) => {
 
         <div className="button-container">
           <button className="request-button" onClick={() => setShowPopup(true)}>
-            Zahtevaj ponudbo
+            Kontakt
           </button>
         </div>
 
@@ -71,6 +71,7 @@ const PriceList = ({ refs }) => {
             </div>
           </div>
         )}
+        <hr className="dimenzije-line" />
       </div>
     </div>
   );

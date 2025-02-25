@@ -1,41 +1,41 @@
 export const pricingData = {
   "1 teden": [
-    { units: "1", discount: "-", pricePerUnit: 379, finalPrice: 379 },
+    { units: "1", discount: "-", pricePerUnit: 379.0, finalPrice: 379.0 },
     { units: "2", discount: "10%", pricePerUnit: 341.1, finalPrice: 682.2 },
     {
       units: "3/KOMPLET 1",
       discount: "15%",
       pricePerUnit: 322.2,
-      finalPrice: 966.45,
+      finalPrice: 966.5,
     },
     { units: "4", discount: "17.5%", pricePerUnit: 312.7, finalPrice: 1250.7 },
     {
       units: "5/KOMPLET 2",
       discount: "20%",
       pricePerUnit: 303.2,
-      finalPrice: 1516,
+      finalPrice: 1516.0,
     },
   ],
   "2 tedna": [
     { units: "1", discount: "5%", pricePerUnit: 360.1, finalPrice: 720.1 },
-    { units: "2", discount: "5%", pricePerUnit: 324, finalPrice: 1296.2 },
+    { units: "2", discount: "5%", pricePerUnit: 324.0, finalPrice: 1296.2 },
     {
       units: "3/KOMPLET 1",
       discount: "5%",
-      pricePerUnit: 306,
+      pricePerUnit: 306.0,
       finalPrice: 1836.3,
     },
-    { units: "4", discount: "5%", pricePerUnit: 297, finalPrice: 2376.33 },
+    { units: "4", discount: "5%", pricePerUnit: 297.0, finalPrice: 2376.3 },
     {
       units: "5/KOMPLET 2",
       discount: "5%",
-      pricePerUnit: 288,
+      pricePerUnit: 288.0,
       finalPrice: 2880.4,
     },
   ],
   "3 tedni": [
-    { units: "1", discount: "10%", pricePerUnit: 341, finalPrice: 1023.3 },
-    { units: "2", discount: "10%", pricePerUnit: 307, finalPrice: 1841.9 },
+    { units: "1", discount: "10%", pricePerUnit: 341.0, finalPrice: 1023.3 },
+    { units: "2", discount: "10%", pricePerUnit: 307.0, finalPrice: 1841.9 },
     {
       units: "3/KOMPLET 1",
       discount: "10%",
