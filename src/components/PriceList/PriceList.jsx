@@ -38,8 +38,12 @@ const PriceList = ({ refs }) => {
             <div key={index} className="pricing-row">
               <div className="pricing-column">{item.units}</div>
               <div className="pricing-column">{item.discount}</div>
-              <div className="pricing-column">{item.pricePerUnit} €</div>
-              <div className="pricing-column">{item.finalPrice} €</div>
+              <div className="pricing-column">
+                {parseFloat(item.pricePerUnit).toFixed(1).replace(".", ",")} €{" "}
+              </div>
+              <div className="pricing-column">
+                {parseFloat(item.finalPrice).toFixed(1).replace(".", ",")} €{" "}
+              </div>
             </div>
           ))}
         </div>

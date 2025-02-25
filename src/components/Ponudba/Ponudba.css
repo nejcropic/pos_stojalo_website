@@ -13,18 +13,12 @@
   font-family: var(--fontSecond);
   display: flex;
   flex-direction: row;
+  height: auto;
   min-height: 70vh;
-  justify-content: flex-end;
-  margin: 2rem auto;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-}
-
-.ponudba-item img {
-  height: 50vh;
-  width: auto;
-  border: 4px solid var(--white);
-  margin-left: 1rem;
+  padding: 1rem 3rem;
 }
 
 .ponudba-item ul {
@@ -39,6 +33,7 @@
 @media screen and (max-width: 1000px) {
   .ponudba-item {
     flex-direction: column;
+    min-height: 50vh;
   }
   .reverse {
     flex-direction: column-reverse;
@@ -59,7 +54,15 @@
 .image-divider {
   display: flex;
   flex-direction: row;
-  height: 65% !important;
+  width: 60%;
+  height: 100%;
+  justify-content: center;
+}
+.image-divider img {
+  height: 60vh;
+  width: auto;
+  border: 4px solid var(--white);
+  margin-left: 1rem;
 }
 .column {
   flex-direction: column;
@@ -69,14 +72,18 @@
   height: 70vh !important;
 }
 @media screen and (max-width: 1000px) {
-  .ponudba-item img {
+  .ponudba-item {
+    padding: 2rem 0;
+  }
+  .image-divider img {
     height: auto;
     width: 100%;
-    margin-right: 0rem;
+    margin-left: 0rem;
     margin-bottom: 1rem;
   }
   .image-divider {
     flex-direction: column;
+    width: 100%;
   }
   .text-divider {
     margin-left: 0rem;
@@ -91,4 +98,84 @@
 
 .ponudba-line {
   background-color: var(--secondaryColor);
+}
+.image-ponudba-1 {
+  height: 595px; /* Take up full height of its parent */
+  width: auto;
+  object-fit: contain; /* Ensures image scales properly */
+  flex-grow: 1;
+  border: 4px solid var(--white);
+  margin-left: 1rem;
+}
+
+.flex-posamicno {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.no-space {
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem auto;
+  height: 100%;
+}
+.flex-images {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.flex-images img {
+  height: 50vh;
+  width: auto;
+  border: 4px solid var(--white);
+  margin-left: 1rem;
+}
+.text-divider {
+  padding: 2rem 0;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.posamicno {
+  padding: 2rem 0;
+  text-align: left;
+  margin: auto;
+}
+
+.posamicno h2 {
+  margin-left: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .flex-images {
+    flex-direction: column;
+  }
+  .flex-images img {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .flex-posamicno {
+    width: 100%;
+  }
+  .posamicno {
+    text-align: center;
+  }
+  .posamicno h2 {
+    margin-left: 0rem;
+  }
+  .posamicno ul {
+    list-style-position: inside;
+  }
+  .posamicno li {
+    text-align: left;
+    font-size: 1.2rem;
+    color: var(--white);
+  }
+  .image-ponudba-1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
 }

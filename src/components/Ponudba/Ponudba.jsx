@@ -21,7 +21,9 @@ export default function Ponudba({ refs }) {
               <li>Navadno stojalo 2x</li>
             </ul>
           </div>
-          <img src={Skupna_1} alt="" />
+          <div className="image-divider">
+            <img src={Skupna_1} alt="" />
+          </div>
         </div>
         <hr className="ponudba-line" />
         <div className="ponudba-item">
@@ -32,14 +34,15 @@ export default function Ponudba({ refs }) {
               <li>Navadno stojalo 1x</li>
             </ul>
           </div>
-          <img src={Posamicno_3} alt="" />
-          <img src={Skupna_2} alt="" />
+          <div className="image-divider">
+            <img src={Posamicno_3} alt="" />
+            <img src={Skupna_2} alt="" />
+          </div>
         </div>
         <hr className="ponudba-line" />
-        <div className="ponudba-item ">
-          <img className="image-bigger" src={Posamicno_2} alt="" />
-          <div className="image-divider column">
-            <div className="text-divider">
+        <div className="ponudba-item no-space">
+          <div className="flex-posamicno">
+            <div className="text-divider posamicno">
               <h2>POSAMIČNO</h2>
               <ul>
                 <li>Omarica s polico spredaj 1x</li>
@@ -47,11 +50,12 @@ export default function Ponudba({ refs }) {
                 <li>Navadno stojalo 3x</li>
               </ul>
             </div>
-            <div className="image-divider">
+            <div className="flex-images">
               <img src={Posamicno_1} alt="" />
               <img src={Posamicno_3} alt="" />
             </div>
           </div>
+          <img className="image-ponudba-1" src={Posamicno_2} alt="" />
         </div>
         <hr className="ponudba-line" />
       </div>
