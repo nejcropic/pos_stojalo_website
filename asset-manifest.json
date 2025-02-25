@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/pos_stojalo_website/static/css/main.1c6fcdfa.css",
-    "main.js": "/pos_stojalo_website/static/js/main.8e5d57fd.js",
+    "main.css": "/pos_stojalo_website/static/css/main.60daa473.css",
+    "main.js": "/pos_stojalo_website/static/js/main.f029d984.js",
+    "static/media/skupaj_1.JPG": "/pos_stojalo_website/static/media/skupaj_1.e7ac4a2d18dc5d122281.JPG",
     "static/media/dimenzije1.png": "/pos_stojalo_website/static/media/dimenzije1.39d6de9941c5e6b67551.png",
+    "static/media/skupaj_2.JPG": "/pos_stojalo_website/static/media/skupaj_2.e6de869c81cb2cfbf15c.JPG",
     "static/media/posamicno_1.jpg": "/pos_stojalo_website/static/media/posamicno_1.93d538cf6f4339b2210e.jpg",
-    "static/media/skupna_2.jpg": "/pos_stojalo_website/static/media/skupna_2.1612f0ac95473d65f2f3.jpg",
+    "static/media/posamicno_3.jpg": "/pos_stojalo_website/static/media/posamicno_3.a0f7267c3c033a6e60b1.jpg",
     "static/media/posamicno_2.jpg": "/pos_stojalo_website/static/media/posamicno_2.2a277bf3ba907c43ca56.jpg",
-    "static/media/skupna_1.jpg": "/pos_stojalo_website/static/media/skupna_1.51fd628ef2b437f39f83.jpg",
     "static/media/naslovnica.png": "/pos_stojalo_website/static/media/naslovnica.51e594299996def9a006.png",
-    "static/media/posamicno_3.jpg": "/pos_stojalo_website/static/media/posamicno_3.8cba9ad86a493947eaeb.jpg",
     "static/media/dimenzije2.png": "/pos_stojalo_website/static/media/dimenzije2.2ae5a017cce23608efcd.png",
     "static/media/phone-call.png": "/pos_stojalo_website/static/media/phone-call.9f67e819001cd616ba13.png",
     "static/media/mail.png": "/pos_stojalo_website/static/media/mail.7f0432c3a7d36f687c69.png",
     "static/media/logo.png": "/pos_stojalo_website/static/media/logo.c2735bf8bca368ac4008.png",
     "index.html": "/pos_stojalo_website/index.html",
-    "main.1c6fcdfa.css.map": "/pos_stojalo_website/static/css/main.1c6fcdfa.css.map",
-    "main.8e5d57fd.js.map": "/pos_stojalo_website/static/js/main.8e5d57fd.js.map"
+    "main.60daa473.css.map": "/pos_stojalo_website/static/css/main.60daa473.css.map",
+    "main.f029d984.js.map": "/pos_stojalo_website/static/js/main.f029d984.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c6fcdfa.css",
-    "static/js/main.8e5d57fd.js"
+    "static/css/main.60daa473.css",
+    "static/js/main.f029d984.js"
   ]
 }
