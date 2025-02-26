@@ -35,8 +35,13 @@ const PreloadImages = () => {
       Dimenzije2,
     ];
 
-    imagesToPreload.forEach((imageSrc) => (new Image().src = imageSrc));
+    imagesToPreload.forEach((imageSrc) => {
+      const img = new Image();
+      img.src = imageSrc;
+    });
   }, []);
+
+  return null; // Fix: Return null or empty fragment
 };
 
 export {
@@ -55,13 +60,16 @@ export {
 };
 
 const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <React.StrictMode>
-    <HashRouter>
-      <PreloadImages />
-      <App />
-    </HashRouter>
-  </React.StrictMode>
-);
+if (rootElement) {
+  const root = createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <HashRouter>
+        <PreloadImages />
+        <App />
+      </HashRouter>
+    </React.StrictMode>
+  );
+} else {
+  console.error("Root element not found");
+}
