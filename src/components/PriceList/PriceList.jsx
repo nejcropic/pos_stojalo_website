@@ -48,6 +48,29 @@ const PriceList = ({ refs }) => {
           ))}
         </div>
 
+        <div className="price-text right">
+          <p className="small ">*CENE SO BREZ DDV</p>
+        </div>
+        <div className="price-text">
+          <br />
+          <br />
+          <p>Ob najemu stojala vam pripada:</p>{" "}
+          <p className="big">
+            personalizacija stojala z logotipom &#x2022; promocijsko platno, ki
+            ga po vaši želji tudi oblikujemo &#x2022; transport in montaža na
+            željneo mesto v okolici Ljubljane &#x2022; nosilec za letake (po
+            želji)
+          </p>
+          <br />
+          <p>Dodatna ponudba</p>{" "}
+          <p className="small">
+            transport in montaža stojala na željeno mesto po sloveniji &#x2022;
+            Osvetljeni logo &#x2022; Polepitev stojala v željeno barvo &#x2022;
+            najem za daljše časovno obdobje &#x2022; izdelava ostalega
+            reklamnega materiala materiala.
+          </p>
+        </div>
+
         <div className="button-container">
           <button className="request-button" onClick={() => setShowPopup(true)}>
             Kontakt

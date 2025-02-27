@@ -20,6 +20,7 @@
   max-height: 100vh;
 }
 .dimenzije-item ul {
+  padding-top: 1rem;
   list-style-position: inside;
   list-style-type: none;
 }
@@ -44,7 +45,7 @@
     font-size: 4rem;
   }
   .dimenzije-item li {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .dimenzije-container h2 {

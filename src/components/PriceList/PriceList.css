@@ -161,3 +161,36 @@
 .popup-button:hover {
   opacity: 0.8;
 }
+
+.price-text {
+  max-width: 65%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.price-text p {
+  font-family: var(--fontSecond);
+  color: var(--secondaryColor);
+  font-size: 1rem;
+  text-align: center;
+}
+.big {
+  color: var(--white) !important;
+  text-transform: uppercase;
+}
+.small {
+  color: var(--white) !important;
+  text-transform: uppercase;
+  font-size: 0.7rem !important;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .price-text {
+    max-width: 100%;
+  }
+}

@@ -100,7 +100,7 @@
   background-color: var(--secondaryColor);
 }
 .image-ponudba-1 {
-  height: 595px; /* Take up full height of its parent */
+  height: 505px; /* Take up full height of its parent */
   width: auto;
   object-fit: contain; /* Ensures image scales properly */
   flex-grow: 1;
