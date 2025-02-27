@@ -158,7 +158,7 @@ export const mobileMenuVariant = {
     y: "0%",
     transition: {
       delay: 0.15,
-      duration: 1.1,
+      duration: 0.7,
       ease: [0.74, 0, 0.19, 1.02],
     },
   },
@@ -202,7 +202,7 @@ export const liVariant = {
     opacity: 1,
     y: "0%",
     transition: {
-      duration: 0.65,
+      duration: 0.2,
       ease: "easeOut",
     },
   },
