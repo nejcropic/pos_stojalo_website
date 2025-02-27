@@ -30,7 +30,9 @@ const PriceList = ({ refs }) => {
         <div className="pricing-table">
           <div className="pricing-header">
             <div className="pricing-column">Število enot</div>
-            <div className="pricing-column">Popust</div>
+            <div className="pricing-column">
+              {selectedPeriod === "1 teden" ? "Popust" : "Dodatni popust"}
+            </div>
             <div className="pricing-column">Cena enote na teden</div>
             <div className="pricing-column">Skupna cena</div>
           </div>
