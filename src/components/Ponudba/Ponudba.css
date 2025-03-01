@@ -1,20 +1,15 @@
-.middle {
-  text-align: center;
+.ponudba-wrapper {
+  display: flex;
+  flex-direction: column;
 }
-.ponudba-container h2 {
-  font-family: var(--fontSecond);
-  font-size: 1.5rem;
-  color: var(--secondaryColor);
-  text-align: center;
-}
+
 .ponudba-item {
   color: var(--secondaryColor);
   font-size: 1.5rem;
   font-family: var(--fontSecond);
   display: flex;
   flex-direction: row;
-  height: auto;
-  min-height: 70vh;
+  min-height: 60vh;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -24,158 +19,122 @@
 .ponudba-item ul {
   list-style-position: inside;
 }
+
 .ponudba-item li {
   text-align: left;
   font-size: 1.2rem;
   color: var(--white);
 }
-
 @media screen and (max-width: 1000px) {
   .ponudba-item {
     flex-direction: column;
     min-height: 50vh;
+    padding: 2rem 0;
   }
-  .reverse {
-    flex-direction: column-reverse;
-  }
-  .ponudba-container h1 {
-    font-size: 4rem;
-  }
-
-  .ponudba-item img {
-    margin-left: 0rem;
+  .ponudba-item ul {
+    list-style-position: inside;
   }
 }
-
 .text-divider {
   margin-left: 1rem;
   width: auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+.text-divider h2 {
+  text-align: left;
 }
 .image-divider {
   display: flex;
   flex-direction: row;
-  width: 60%;
-  height: 100%;
+  width: 70%;
   justify-content: center;
 }
+
 .image-divider img {
-  height: 60vh;
-  width: auto;
+  height: auto;
   border: 4px solid var(--white);
   margin-left: 1rem;
 }
-.column {
-  flex-direction: column;
-  height: 40vh;
-}
-.image-bigger {
-  height: 70vh !important;
-}
 @media screen and (max-width: 1000px) {
-  .ponudba-item {
-    padding: 2rem 0;
-  }
-  .image-divider img {
-    height: auto;
-    width: 100%;
-    margin-left: 0rem;
-    margin-bottom: 1rem;
-  }
   .image-divider {
     flex-direction: column;
     width: 100%;
   }
-  .text-divider {
-    margin-left: 0rem;
+  .text-divider h2 {
+    text-align: center;
+  }
+  .text-divider ul {
+    text-align: center;
+    padding: 0 3rem;
   }
 }
+.one-image img {
+  width: 100%;
+}
 
-.text-divider {
-  padding: 2rem 0;
-  padding-right: 1rem;
-  text-align: center;
+.two-image img {
+  width: 48%;
+}
+
+.full {
+  width: 100%;
 }
 
 .ponudba-line {
   background-color: var(--secondaryColor);
 }
-.image-ponudba-1 {
-  height: 505px; /* Take up full height of its parent */
-  width: auto;
-  object-fit: cover; /* Ensures image scales properly */
-  flex-grow: 1;
+
+.ponudba-image {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  padding: 6.5px;
+}
+
+.ponudba-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   border: 4px solid var(--white);
   margin-left: 1rem;
 }
-
 .flex-posamicno {
   display: flex;
   flex-direction: column;
   width: 60%;
-}
-
-.no-space {
-  align-items: center;
-  justify-content: center;
-  margin: 0.5rem auto;
   height: 100%;
 }
-.flex-images {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-.flex-images img {
-  height: 50vh;
-  width: auto;
-  border: 4px solid var(--white);
-  margin-left: 1rem;
-}
-.text-divider {
-  padding: 2rem 0;
-  padding-right: 1rem;
-  text-align: center;
-}
 
-.posamicno {
-  padding: 2rem 0;
-  text-align: left;
-  margin: auto;
-}
-
-.posamicno h2 {
-  margin-left: 2rem;
-}
 @media screen and (max-width: 1000px) {
-  .flex-images {
-    flex-direction: column;
-  }
-  .flex-images img {
-    height: auto;
+  .image-divider img {
     width: 100%;
     margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .text-divider {
+    margin-left: 0;
+  }
+
+  .image-ponudba-1 {
+    width: 100%;
+    height: auto;
     margin-bottom: 1rem;
   }
   .flex-posamicno {
     width: 100%;
   }
-  .posamicno {
-    text-align: center;
-  }
-  .posamicno h2 {
-    margin-left: 0rem;
-  }
-  .posamicno ul {
-    list-style-position: inside;
-  }
-  .posamicno li {
-    text-align: left;
-    font-size: 1.2rem;
-    color: var(--white);
-  }
-  .image-ponudba-1 {
+  .ponudba-image {
     width: 100%;
     height: auto;
-    margin-bottom: 1rem;
+    padding: 0px;
+  }
+  .ponudba-image img {
+    margin-left: 0rem;
+  }
+  .full {
+    width: auto;
   }
 }

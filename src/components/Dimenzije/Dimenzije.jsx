@@ -15,7 +15,11 @@ export default function Dimenzije({ refs }) {
     <div className="main-wrapper" ref={refs.dimenzijeRef}>
       <div className="main-container">
         <div className="dimenzije-item ">
-          <img className="dimenzije-bigger" src={Dimenzije2} alt="" />
+          <img
+            className="dimenzije-bigger"
+            src={Dimenzije2}
+            alt="grafične rešitve, dodana vrednost, blagovna znamka, interakcija"
+          />
           <div className="dimenzije-divider">
             <div className="text-divider">
               <h2>DIMENZIJE LED OSVETLJENIH STOJAL</h2>
@@ -42,7 +46,10 @@ export default function Dimenzije({ refs }) {
                 </li>
               </ul>
             </div>
-            <img src={Dimenzije1} alt="" />
+            <img
+              src={Dimenzije1}
+              alt="marketinška rešitev, najem marketinške opreme,  najem pos stojal"
+            />
           </div>
         </div>
         <hr className="dimenzije-line" />
