@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2819c94a.css",
-    "main.js": "/static/js/main.fa3ecb04.js",
+    "main.css": "/static/css/main.ecdd326a.css",
+    "main.js": "/static/js/main.b6c3f66e.js",
     "static/media/skupaj_1.JPG": "/static/media/skupaj_1.e7ac4a2d18dc5d122281.JPG",
     "static/media/dimenzije1.png": "/static/media/dimenzije1.39d6de9941c5e6b67551.png",
     "static/media/skupaj_2.JPG": "/static/media/skupaj_2.e6de869c81cb2cfbf15c.JPG",
@@ -12,13 +12,14 @@
     "static/media/dimenzije2.png": "/static/media/dimenzije2.2ae5a017cce23608efcd.png",
     "static/media/phone-call.png": "/static/media/phone-call.9f67e819001cd616ba13.png",
     "static/media/mail.png": "/static/media/mail.7f0432c3a7d36f687c69.png",
+    "static/media/naslovnica_small.jpg": "/static/media/naslovnica_small.846467a39e3735cca655.jpg",
     "static/media/logo.png": "/static/media/logo.c2735bf8bca368ac4008.png",
     "index.html": "/index.html",
-    "main.2819c94a.css.map": "/static/css/main.2819c94a.css.map",
-    "main.fa3ecb04.js.map": "/static/js/main.fa3ecb04.js.map"
+    "main.ecdd326a.css.map": "/static/css/main.ecdd326a.css.map",
+    "main.b6c3f66e.js.map": "/static/js/main.b6c3f66e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2819c94a.css",
-    "static/js/main.fa3ecb04.js"
+    "static/css/main.ecdd326a.css",
+    "static/js/main.b6c3f66e.js"
   ]
 }
