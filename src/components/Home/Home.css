@@ -3,17 +3,38 @@
   width: 100%;
   top: 0;
   background-color: transparent;
+  display: flex; /* Center content */
   align-items: center;
   justify-content: center;
   text-align: center;
+  align-items: flex-start; /* Align image to the top */
 }
 
-.home-wrapper img {
+.home-image-div {
+  position: relative;
   height: 90%;
-  width: auto;
-  margin: auto;
+  min-height: 300px; /* Prevent collapse before image loads */
+  width: auto; /* Match image width */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-image: url("../../images/naslovnica_small.jpg"); /* ✅ Background loads first */
+  background-size: cover; /* Ensure full coverage */
+  background-position: center;
 }
 
+.home-image-div img {
+  height: 100%;
+  max-width: 100%; /* Ensure it fits inside the div */
+  max-height: 100%; /* Prevent overflow */
+  object-fit: contain; /* Keep original proportions */
+  display: block; /* Prevent inline whitespace */
+  opacity: 0; /* Hide until loaded */
+  transition: opacity 0.5s ease-in-out; /* Smooth fade-in */
+}
+.home-image-div img.loaded {
+  opacity: 1;
+}
 /* Button styles */
 .scroll-button {
   position: absolute;
@@ -37,10 +58,18 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .home-wrapper img {
-    height: auto;
-    width: 100%;
+  .home-image-div {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height */
+    padding-top: 0; /* Remove extra space */
   }
+
+  .home-image-div img {
+    width: 100%; /* Scale to fit */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Fill width properly */
+  }
+
   .home-wrapper {
     padding-top: 20svh;
   }
