@@ -1,5 +1,6 @@
 import React from "react";
 import "./Ponudba.css";
+import { useTranslation } from "react-i18next";
 import {
   Posamicno_1,
   Posamicno_2,
@@ -9,18 +10,19 @@ import {
 } from "../..";
 
 export default function Ponudba({ refs }) {
+  const { t } = useTranslation("global");
   return (
     <div className="main-wrapper" ref={refs.ponudbaRef}>
       <div className="main-container">
-        <h1>PONUDBA</h1>
+        <h1>{t("ponudba.naslov")}</h1>
         <div className="ponudba-wrapper">
           {/* KOMPLET 1 */}
           <div className="ponudba-item">
             <div className="text-divider">
-              <h2>KOMPLET 1</h2>
+              <h2>{t("ponudba.komplet_1.naslov")}</h2>
               <ul>
-                <li>Stojalo s polico spredaj</li>
-                <li>Navadno stojalo 2x</li>
+                <li>{t("ponudba.komplet_1.stojalo")}</li>
+                <li>{t("ponudba.komplet_1.navadno")}</li>
               </ul>
             </div>
             <div className="image-divider one-image">
@@ -35,10 +37,10 @@ export default function Ponudba({ refs }) {
           {/* KOMPLET 2 */}
           <div className="ponudba-item">
             <div className="text-divider">
-              <h2>KOMPLET 2</h2>
+              <h2>{t("ponudba.komplet_2.naslov")}</h2>
               <ul>
-                <li>Stojalo s polico ob strani 1x</li>
-                <li>Navadno stojalo 1x</li>
+                <li>{t("ponudba.komplet_2.stojalo")}</li>
+                <li>{t("ponudba.komplet_2.navadno")}</li>
               </ul>
             </div>
             <div className="image-divider two-image">
@@ -55,11 +57,11 @@ export default function Ponudba({ refs }) {
           <div className="ponudba-item">
             <div className="flex-posamicno">
               <div className="text-divider">
-                <h2>POSAMIČNO</h2>
+                <h2>{t("ponudba.posamicno.naslov")}</h2>
                 <ul>
-                  <li>Omarica s polico spredaj 1x</li>
-                  <li>Omarica s policami ob strani 1x</li>
-                  <li>Navadno stojalo 3x</li>
+                  <li>{t("ponudba.posamicno.stojalo")}</li>
+                  <li>{t("ponudba.posamicno.navadno")}</li>
+                  <li>{t("ponudba.posamicno.stojalo2")}</li>
                 </ul>
               </div>
               <div className="image-divider two-image full">

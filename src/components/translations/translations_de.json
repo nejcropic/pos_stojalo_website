@@ -1,0 +1,156 @@
+{
+  "topbar": {
+    "opentime": "Jeden Tag geöffnet"
+  },
+  "navbar": {
+    "pizzerija-naslov": "Pizzeria",
+    "home": "Startseite",
+    "reservation": "Reservierungen",
+    "menu": "Speisekarte",
+    "toplar": "Pizzeria Toplar",
+    "about": "Über uns",
+    "gallery": "Galerie",
+    "park": "Park Loka"
+  },
+  "hero": {
+    "about": "Mehr lesen",
+    "gallery": "Mehr sehen",
+    "reservation": "Reservieren",
+    "park": "Ansehen"
+  },
+  "backgroundslider": {
+    "sliderp": "Willkommen in der Pizzeria Toplar",
+    "sliderh": "",
+    "menu": "Preisliste"
+  },
+  "home": {
+    "events": {
+      "title": "Private Feiern",
+      "subtitle": "Reservierung",
+      "description": "In der Pizzeria Toplar können Sie einen Tisch oder das gesamte Heustadel für eine private Feier reservieren. Wir bereiten Essen ab 15 Uhr zu und passen uns nach Absprache an.\n Reservierungen nehmen wir telefonisch unter 01-7886-833 oder 041-655-227 entgegen.",
+      "button": "Menü ansehen"
+    },
+    "park": {
+      "title": "Park Loka",
+      "subtitle": "Miete",
+      "description": "In der Nähe der Wasserfälle des Flusses Krka, unweit einer antiken Römerstraße, liegt das malerische Dorf Zagradec. Es wurde auf dem Erbe der alten Eisenwerk-Siedlung Fužina errichtet. Heute stehen hier noch ein Wasserkraftwerk und die einzige Walzenmühle im oberen Krka-Becken. Atemberaubende Ausblicke auf die Krka bieten ein einzigartiges Boutique-Tourismus-Erlebnis, das Sie auch in unserem Park Loka erkunden können.",
+      "button": "Mietoptionen"
+    },
+    "biljard": {
+      "title": "Billard",
+      "subtitle": "Eine Partie Billard",
+      "description": "Genießen Sie eine Partie Billard mit Freunden bei einem kalten Bier. Der Billardtisch ist nur für Erwachsene, daneben gibt es einen kleineren Kindertisch.",
+      "button": "Galerie ansehen"
+    }
+  },
+  "meni": {
+    "buttons": {
+      "pizze": "Pizzas",
+      "burgers": "Burger",
+      "drinks": "Andere Angebote",
+      "extras": "Zusätze"
+    },
+    "pizze": {
+      "size1": "Klein",
+      "size2": "Groß",
+      "titles": {
+        "picici": "Picici",
+        "tanavadna": "Klassisch",
+        "neza": "Neža",
+        "kmecka": "Bauernhof",
+        "tunca": "Thunfisch",
+        "hudicek": "Teufelchen",
+        "stirjesiri": "Vier Käse",
+        "poletna": "Sommer",
+        "napalavica": "Mix Pizza",
+        "margerita": "Margherita",
+        "toplar": "Toplar",
+        "cesencek": "Knoblauch",
+        "murje": "Murje",
+        "kraska": "Karst",
+        "mehiska": "Mexikanisch",
+        "vegi": "Vegetarisch",
+        "jurcek": "Pilz"
+      },
+      "alergeni": {
+        "picici": "",
+        "tanavadna": "Tomatensoße, Schinken, Champignons, Käse",
+        "neza": "Tomatensoße, Schinken, Champignons, Würstchen, Käse",
+        "kmecka": "Tomatensoße, geräucherter Schinken, Champignons, Salami, Käse, Meerrettich",
+        "tunca": "Tomatensoße, Käse, Thunfisch, Mais, Mediterane Soße",
+        "hudicek": "Tomatensoße, Schinken, Champignons, scharfe Salami, Käse, Peperoni",
+        "stirjesiri": "Tomatensoße, Champignons, Käse, Gorgonzola, Mozzarella, Parmesan",
+        "poletna": "Tomatensoße, Schinken, Champignons, Käse, Tomaten, Paprika, Mais, Speck",
+        "napalavica": "Pizza aus zwei ausgewählten Pizzas",
+        "margerita": "Tomatensoße, Champignons, Käse",
+        "toplar": "Tomatensoße, Schinken, Champignons, Salami, Käse, Artischocken",
+        "cesencek": "Tomatensoße, Schinken, Champignons, Salami, Käse, Mediterane Soße",
+        "murje": "Tomatensoße, Käse, Meeresfrüchte, Mediterane Soße",
+        "kraska": "Tomatensoße, Champignons, Käse, Prosciutto, Oliven",
+        "mehiska": "Tomatensoße, Schinken, Champignons, scharfe Salami, Käse, Mais, Nacho-Käse",
+        "vegi": "Tomatensoße, Champignons, Käse, Tomaten, Paprika, Mais, Speck, Artischocken, Oliven",
+        "jurcek": "Tomatensoße, Schinken, Käse, Steinpilze, Mediterane Soße, Sauerrahm"
+      }
+    },
+    "burgers": {
+      "titles": {
+        "hamburger": "Hamburger",
+        "hamburgerham": "Hamburger mit Speck",
+        "cheeseburger": "Cheeseburger",
+        "cheeseburgerham": "Cheeseburger mit Speck",
+        "vegi": "Veggie-Burger",
+        "vegicheese": "Veggie-Burger mit Käse"
+      },
+      "sestavine": {
+        "hamburger": "Sesambrötchen, Rindfleisch-Patty, Zwiebeln, Tomaten, Paprika, Salat, Mayonnaise, Ajvar, Senf, Ketchup, Nacho-Käse",
+        "hamburgerham": "Sesambrötchen, Rindfleisch-Patty, Zwiebeln, Tomaten, Paprika, Salat, gegrillter Speck, Mayonnaise, Ajvar, Senf, Ketchup, Nacho-Käse",
+        "cheeseburger": "Sesambrötchen, Rindfleisch-Patty, Zwiebeln, Tomaten, Paprika, Salat, Käse, Mayonnaise, Ajvar, Senf, Ketchup, Nacho-Käse",
+        "cheeseburgerham": "Sesambrötchen, Rindfleisch-Patty, Zwiebeln, Tomaten, Paprika, Salat, Käse, gegrillter Speck, Mayonnaise, Ajvar, Senf, Ketchup, Nacho-Käse",
+        "vegi": "Sesambrötchen, Gemüse-Patty, Zwiebeln, Tomaten, Paprika, Salat, Mayonnaise, Ajvar, Senf, Ketchup, Nacho-Käse",
+        "vegicheese": "Sesambrötchen, Gemüse-Patty, Zwiebeln, Tomaten, Paprika, Salat, Käse, Mayonnaise, Ajvar, Senf, Ketchup, Nacho-Käse"
+      }
+    }
+  },
+  "about": {
+    "text1": "1991 eröffneten wir ein Bistro in einem Gebäude, das früher als Stall diente. Später erweiterten wir unser Angebot um Pizzen und Hamburger. Wir haben die Räumlichkeiten mit einer großen Terrasse und einem Garten erweitert und 2019 die Pizzeria erweitert und komplett renoviert. Die Innen- und Außengestaltung der Pizzeria spiegelt unsere Liebe zu Antiquitäten wider, die den Räumen eine heimelige Atmosphäre verleihen. Auf diese Weise bemühen wir uns, das kulturelle Erbe unseres Landes zu bewahren. Ein besonderes Merkmal unserer Pizzeria ist der Heustadel neben dem Hauptgebäude, den wir für Feiern und private Veranstaltungen angepasst haben.",
+    "text2": "Der Heustadel, lokal 'kazuc' genannt, mit seiner hölzernen und offenen Struktur, ist ein unverwechselbarer Teil der slowenischen ländlichen Landschaft. In der Region Dolenjska überwiegt der sogenannte Doppelheustadel oder Toplar. Ursprünglich war der Heustadel zum Trocknen und Lagern von Ernten bestimmt, heute wird er hauptsächlich zur Aufbewahrung von landwirtschaftlichen Maschinen und Werkzeugen genutzt. In der Vergangenheit hatten Heustadel auch eine soziale Funktion, die wir in der Pizzeria Toplar noch heute bewahren. Der Toplar-Heustadel wurde für Feiern und private Veranstaltungen renoviert, wobei altes Material aus einer Scheune und einem Getreidespeicher verwendet wurde.",
+    "text3": "Zagraška dolin'ca\n Du bist wirklich schön.\n Du hast sonnige Berghänge\n und kleine Dörfer.\n\n Die grüne Krka\n fließt leise dahin.\n Entlang ihres tiefen Laufs\n eilt sie in die Ferne.\n\n Dort steht eine weiße Kirche\n an der Krka.\n Sie schmückt das freundliche\n Zagradac-Tal.\n\n Lojze Zupančič",
+    "text4": "Nur einen Steinwurf vom Dorf Zagradec entfernt liegt unser Park Loka am Fluss Krka. An heißen Sommertagen bietet er die Möglichkeit, sich im angenehm kühlen Fluss an seinen Wasserfällen und im Schatten der vielfältigen Bäume, die den Park umgeben, abzukühlen. Wir haben den Park mit zahlreichen Blumen und Sträuchern bereichert und auf dem Hang über dem Fluss mit Bögen und Steingärten den Eindruck landschaftlicher Vielfalt geschaffen."
+  },
+  "gallery": {
+    "text1": "Außen- und Innenräume",
+    "text2": "Billard",
+    "text3": "Park Loka",
+    "text4": "Essen und Getränke"
+  },
+  "loka": {
+    "title": "Erkunde den Park",
+    "subtitle": "Für Anfragen zur Nutzung und Vermietung rufen Sie 01-7886-833 oder 041-655-227 an",
+    "text": "Vermietung verfügbar.",
+    "gallery": "Galerie",
+    "kasca": {
+      "title": "Kašča",
+      "text": "Am Eingang zum Park Loka befindet sich die Kašča-Bar, die in den Sommermonaten erfrischende Getränke nach einem angepassten Zeitplan anbietet."
+    },
+    "kozolec": {
+      "title": "Heustadel",
+      "text": "Unterhalb der Kašča-Bar befindet sich ein Amphitheater mit einem Heustadel, der für größere Feiern und Veranstaltungen gedacht ist und gemietet werden kann."
+    },
+    "loka": {
+      "title": "Loka",
+      "text": "Im unteren Teil des Parks Loka am Fluss Krka gibt es ein vielfältiges Areal für Feiern, Picknicks, Camping und Sportaktivitäten.\n Nach Absprache können Sie den gesamten Raum mit einer Holzhütte für eine größere Gruppe oder einen bestimmten Platz am Fluss mit einer Grillstelle für kleinere Gruppen und Camping mieten.\n Der untere Teil des Parks bietet Möglichkeiten zur Erholung und ist auch für den Abschluss einer Paddeltour auf der Krka geeignet."
+    }
+  },
+  "footer": {
+    "title": "Pizzeria",
+    "address": "Slowenien",
+    "map": "Karte",
+    "howto": "Wie Sie uns erreichen",
+    "social": "Folgen Sie uns auf:",
+    "workingtime": "Öffnungszeiten",
+    "time1": "Mo - Do",
+    "time2": "Fr - Sa",
+    "time3": "So",
+    "contact": "Kontakt"
+  }
+}

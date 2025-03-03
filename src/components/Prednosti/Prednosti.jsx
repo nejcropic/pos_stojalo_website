@@ -1,8 +1,11 @@
 import React from "react";
 import "./Prednosti.css";
 
-import { prednostiData } from "./PrednostiData";
+import { useTranslation } from "react-i18next";
+import { getPrednostiData } from "./PrednostiData";
 export default function Prednosti({ refs }) {
+  const { t } = useTranslation("global");
+  const prednostiData = getPrednostiData(t);
   return (
     <div className="main-wrapper" ref={refs.prednostiRef}>
       <div className="main-container">

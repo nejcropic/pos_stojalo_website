@@ -10,8 +10,10 @@ import { Naslovnica } from "..";
 import Prednosti from "../components/Prednosti/Prednosti";
 import Ponudba from "../components/Ponudba/Ponudba";
 import Dimenzije from "../components/Dimenzije/Dimenzije";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation("global");
   const [imageLoaded, setImageLoaded] = useState(false);
   const ponudbaRef = useRef(null);
   const prednostiRef = useRef(null);
@@ -44,7 +46,9 @@ function Home() {
             loading="lazy"
           />
         </div>
-        <button className="scroll-button">Cenik</button>
+        <button onClick={scrollDown} className="scroll-button">
+          {t("home.button")}
+        </button>
       </div>
 
       {/* <BackgroundSlider /> */}

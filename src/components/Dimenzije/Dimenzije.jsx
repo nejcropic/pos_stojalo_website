@@ -1,5 +1,6 @@
 import React from "react";
 import "./Dimenzije.css";
+import { useTranslation } from "react-i18next";
 import {
   Dimenzije1,
   Dimenzije2,
@@ -11,6 +12,7 @@ import {
 } from "../..";
 
 export default function Dimenzije({ refs }) {
+  const { t } = useTranslation("global");
   return (
     <div className="main-wrapper" ref={refs.dimenzijeRef}>
       <div className="main-container">
@@ -22,27 +24,32 @@ export default function Dimenzije({ refs }) {
           />
           <div className="dimenzije-divider">
             <div className="text-divider">
-              <h2>DIMENZIJE LED OSVETLJENIH STOJAL</h2>
+              <h2>{t("dimenzije.naslov")}</h2>
               <ul>
                 <li>
-                  1. ENOTA: <p>ŠIRINA</p> 1665 mm x <p>VIŠINA</p> 1415 mm x{" "}
-                  <p>GLOBINA</p> 690 mm
+                  {t("dimenzije.enote.first")}: <p>{t("dimenzije.sirina")}</p>{" "}
+                  1665 mm x <p>{t("dimenzije.visina")}</p> 1415 mm x{" "}
+                  <p>{t("dimenzije.globina")}</p> 690 mm
                 </li>
                 <li>
-                  2. ENOTA: <p>ŠIRINA</p> 990 mm x <p>VIŠINA</p> 1415 mm x{" "}
-                  <p>GLOBINA</p> 690 mm
+                  {t("dimenzije.enote.second")}: <p>{t("dimenzije.sirina")}</p>{" "}
+                  990 mm x <p>{t("dimenzije.visina")}</p> 1415 mm x{" "}
+                  <p>{t("dimenzije.globina")}</p> 690 mm
                 </li>
                 <li>
-                  3. ENOTA: <p>ŠIRINA</p> 950 mm x <p>VIŠINA</p> 1415 mm x{" "}
-                  <p>GLOBINA</p> 690 mm
+                  {t("dimenzije.enote.third")}: <p>{t("dimenzije.sirina")}</p>{" "}
+                  950 mm x <p>{t("dimenzije.visina")}</p> 1415 mm x{" "}
+                  <p>{t("dimenzije.globina")}</p> 690 mm
                 </li>
                 <li>
-                  4. ENOTA: <p>ŠIRINA</p> 845 mm x <p>VIŠINA</p> 1400 mm x{" "}
-                  <p>GLOBINA</p> 915 mm
+                  {t("dimenzije.enote.fourth")}: <p>{t("dimenzije.sirina")}</p>{" "}
+                  845 mm x <p>{t("dimenzije.visina")}</p> 1400 mm x{" "}
+                  <p>{t("dimenzije.globina")}</p> 915 mm
                 </li>
                 <li>
-                  5. ENOTA: <p>ŠIRINA</p> 910 mm x <p>VIŠINA</p> 1400 mm x{" "}
-                  <p>GLOBINA</p> 525 mm
+                  {t("dimenzije.enote.fifth")}: <p>{t("dimenzije.sirina")}</p>{" "}
+                  910 mm x <p>{t("dimenzije.visina")}</p> 1400 mm x{" "}
+                  <p>{t("dimenzije.globina")}</p> 525 mm
                 </li>
               </ul>
             </div>

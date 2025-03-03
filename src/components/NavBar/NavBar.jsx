@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import "./NavBar.css";
 import {
   mobileMenuVariant,
@@ -8,10 +9,12 @@ import {
   liVariant,
   hideNavItemsVariant,
 } from "../animations.jsx";
-import { NavMenuItems } from "./NavMenuItems.jsx";
+import { getNavMenuItems } from "./NavMenuItems.jsx";
 import { Logo_transparent } from "../..";
 
 const NavBar = ({ refs }) => {
+  const { t } = useTranslation("global");
+  const NavMenuItems = getNavMenuItems(t);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [isScrollingDown, setIsScrollingDown] = useState(false);
   const lastScrollY = useRef(0); // ✅ Use useRef instead of state

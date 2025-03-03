@@ -1,0 +1,156 @@
+{
+  "topbar": {
+    "opentime": "Open every day"
+  },
+  "navbar": {
+    "pizzerija-naslov": "Pizzeria",
+    "home": "Home",
+    "reservation": "Reservations",
+    "menu": "Menu",
+    "toplar": "Pizzeria Toplar",
+    "about": "About Us",
+    "gallery": "Gallery",
+    "park": "Park Loka"
+  },
+  "hero": {
+    "about": "Read more",
+    "gallery": "See more",
+    "reservation": "Reserve",
+    "park": "View"
+  },
+  "backgroundslider": {
+    "sliderp": "Welcome to Pizzeria Toplar",
+    "sliderh": "",
+    "menu": "Price list"
+  },
+  "home": {
+    "events": {
+      "title": "Private Party Events",
+      "subtitle": "Reservation",
+      "description": "At Pizzeria Toplar, you can reserve a table or book the entire hayrack for a private party. We prepare food starting at 3 PM and can accommodate custom requests by agreement.\n Reservations are accepted via phone at 01-7886-833 or 041-655-227.",
+      "button": "View menu"
+    },
+    "park": {
+      "title": "Park Loka",
+      "subtitle": "Rental",
+      "description": "Near the waterfalls of the Krka River, close to an ancient Roman road, lies the picturesque village of Zagradec. It is built upon the heritage of the old ironworks settlement Fužina. Today, a hydroelectric plant and the only roller mill in the upper Krka River basin still stand here. Stunning views of the Krka River offer a unique boutique tourism experience, which you can also explore in our Park Loka.",
+      "button": "Rental options"
+    },
+    "biljard": {
+      "title": "Billiards",
+      "subtitle": "A game of billiards",
+      "description": "Enjoy a game of billiards with friends over a cold beer. The billiards table is for adults only, with a smaller children's table available nearby.",
+      "button": "View gallery"
+    }
+  },
+  "meni": {
+    "buttons": {
+      "pizze": "Pizzas",
+      "burgers": "Burgers",
+      "drinks": "Other offers",
+      "extras": "Extras"
+    },
+    "pizze": {
+      "size1": "Small",
+      "size2": "Large",
+      "titles": {
+        "picici": "Picici",
+        "tanavadna": "Classic",
+        "neza": "Neža",
+        "kmecka": "Farmhouse",
+        "tunca": "Tuna",
+        "hudicek": "Hot Devil",
+        "stirjesiri": "Four Cheeses",
+        "poletna": "Summer",
+        "napalavica": "Mix Pizza",
+        "margerita": "Margherita",
+        "toplar": "Toplar",
+        "cesencek": "Garlic",
+        "murje": "Murje",
+        "kraska": "Karst",
+        "mehiska": "Mexican",
+        "vegi": "Veggie",
+        "jurcek": "Mushroom"
+      },
+      "alergeni": {
+        "picici": "",
+        "tanavadna": "Tomato sauce, ham, mushrooms, cheese",
+        "neza": "Tomato sauce, ham, mushrooms, sausages, cheese",
+        "kmecka": "Tomato sauce, smoked ham, mushrooms, dry salami, cheese, horseradish",
+        "tunca": "Tomato sauce, cheese, tuna, corn, Mediterranean sauce",
+        "hudicek": "Tomato sauce, ham, mushrooms, spicy salami, cheese, hot peppers",
+        "stirjesiri": "Tomato sauce, mushrooms, cheese, gorgonzola, mozzarella, parmesan",
+        "poletna": "Tomato sauce, ham, mushrooms, cheese, tomatoes, peppers, corn, bacon",
+        "napalavica": "Pizza made from two selected pizzas",
+        "margerita": "Tomato sauce, mushrooms, cheese",
+        "toplar": "Tomato sauce, ham, mushrooms, dry salami, cheese, artichokes",
+        "cesencek": "Tomato sauce, ham, mushrooms, dry salami, cheese, Mediterranean sauce",
+        "murje": "Tomato sauce, cheese, mixed seafood, Mediterranean sauce",
+        "kraska": "Tomato sauce, mushrooms, cheese, prosciutto, olives",
+        "mehiska": "Tomato sauce, ham, mushrooms, spicy salami, cheese, corn, nacho cheese",
+        "vegi": "Tomato sauce, mushrooms, cheese, tomatoes, peppers, corn, bacon, artichokes, olives",
+        "jurcek": "Tomato sauce, ham, cheese, porcini mushrooms, Mediterranean sauce, sour cream"
+      }
+    },
+    "burgers": {
+      "titles": {
+        "hamburger": "Hamburger",
+        "hamburgerham": "Hamburger with bacon",
+        "cheeseburger": "Cheeseburger",
+        "cheeseburgerham": "Cheeseburger with bacon",
+        "vegi": "Veggie burger",
+        "vegicheese": "Veggie burger with cheese"
+      },
+      "sestavine": {
+        "hamburger": "Sesame bun, beef patty, onion, tomato, pepper, lettuce, mayonnaise, ajvar, mustard, ketchup, nacho cheese",
+        "hamburgerham": "Sesame bun, beef patty, onion, tomato, pepper, lettuce, grilled bacon, mayonnaise, ajvar, mustard, ketchup, nacho cheese",
+        "cheeseburger": "Sesame bun, beef patty, onion, tomato, pepper, lettuce, cheese, mayonnaise, ajvar, mustard, ketchup, nacho cheese",
+        "cheeseburgerham": "Sesame bun, beef patty, onion, tomato, pepper, lettuce, cheese, grilled bacon, mayonnaise, ajvar, mustard, ketchup, nacho cheese",
+        "vegi": "Sesame bun, vegetable patty, onion, tomato, pepper, lettuce, mayonnaise, ajvar, mustard, ketchup, nacho cheese",
+        "vegicheese": "Sesame bun, vegetable patty, onion, tomato, pepper, lettuce, cheese, mayonnaise, ajvar, mustard, ketchup, nacho cheese"
+      }
+    }
+  },
+  "about": {
+    "text1": "In 1991, we opened a bistro in a building that used to serve as a stable. Later, we expanded our offerings with pizzas and hamburgers. We upgraded the premises with a large terrace and garden, and in 2019, we extended and completely renovated the pizzeria. The interior and exterior of the pizzeria reflect our love for antiques, which give the spaces a homely touch. In this way, we strive to preserve the cultural heritage of our country. The unique feature of our pizzeria is the hayrack next to the main building, which we have adapted for parties and private gatherings.",
+    "text2": "The hayrack, locally called 'kazuc,' with its wooden and open structure, is an unmistakable part of the Slovenian rural landscape. In Dolenjska, the so-called double hayrack or toplar is predominant. The hayrack was originally intended for drying and storing crops, but today it is primarily used for storing agricultural machinery and tools. In the past, hayracks also had a social function, which we still preserve at Pizzeria Toplar. The Toplar hayrack was renovated for parties and private gatherings, using old materials from a barn and granary.",
+    "text3": "Zagraška dolin'ca\n You are beautiful indeed.\n You have sunny ridges\n and small villages.\n\n The green Krka\n flows silently.\n Along its deep course\n it rushes into the distance.\n\n There stands a white church\n by the Krka River.\n Adorning the friendly\n Zagradec Valley.\n\n Lojze Zupančič",
+    "text4": "A stone's throw away from the village of Zagradec lies our Park Loka by the Krka River. During hot summer days, it offers opportunities to cool off in the pleasantly chilly river on its waterfalls and in the shade of the diverse trees surrounding the park. We have enriched the park with numerous planted flowers and shrubs, and on the slope above the river, we created an impression of landscape diversity with arches and rockeries."
+  },
+  "gallery": {
+    "text1": "Outdoor and indoor spaces",
+    "text2": "Billiards",
+    "text3": "Park Loka",
+    "text4": "Food and drinks"
+  },
+  "loka": {
+    "title": "Explore the park",
+    "subtitle": "For use and rental inquiries, call 01-7886-833 or 041-655-227",
+    "text": "Rental available.",
+    "gallery": "Gallery",
+    "kasca": {
+      "title": "Kašča",
+      "text": "At the entrance to Park Loka, there is the Kašča bar, which offers refreshments during summer months with an adjusted schedule."
+    },
+    "kozolec": {
+      "title": "Hayrack",
+      "text": "Below the Kašča bar is an amphitheater with a hayrack, which is intended for larger parties and events, with the possibility of renting."
+    },
+    "loka": {
+      "title": "Loka",
+      "text": "In the lower part of Park Loka by the Krka River, there is a diverse area for parties, picnics, camping, and sports activities.\n By arrangement, you can rent the entire space with a wooden cabin for a larger group or a specific spot by the river, complete with a picnic fire pit for smaller groups and camping.\n The lower part of the park offers recreational opportunities and is also suitable for ending a paddling trip on the Krka."
+    }
+  },
+  "footer": {
+    "title": "Pizzeria",
+    "address": "Slovenia",
+    "map": "Map",
+    "howto": "How to reach us",
+    "social": "Follow us on:",
+    "workingtime": "Opening hours",
+    "time1": "Mon - Thu",
+    "time2": "Fri - Sat",
+    "time3": "Sun",
+    "contact": "Contact"
+  }
+}
