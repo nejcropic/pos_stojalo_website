@@ -1,42 +1,52 @@
 import React, { useState } from "react";
-import { pricingData } from "./PriceListData";
+import { usePricingData } from "./PriceListData"; // Ensure the correct import
 import "./PriceList.css";
 import { MailIcon, PhoneIcon } from "../..";
+import { useTranslation } from "react-i18next";
 
 const PriceList = ({ refs }) => {
-  const [selectedPeriod, setSelectedPeriod] = useState("1 teden");
+  const { t } = useTranslation("global");
+  const pricingData = usePricingData(); // Fetch pricing data
+  const [selectedPeriod, setSelectedPeriod] = useState(() => t("trajanje.one"));
+  // Use translated key
   const [showPopup, setShowPopup] = useState(false);
 
   return (
     <div className="main-wrapper" ref={refs.cenikRef}>
       <div className="main-container middle">
-        <h1>NAJEM STOJALA</h1>
-        <p className="subtitle">Izberite trajanje najema</p>
+        <h1>{t("najem.naslov")}</h1>
+        <p className="subtitle">{t("najem.podnaslov")}</p>
 
         <div className="button-container">
-          {Object.keys(pricingData).map((period) => (
+          {Object.keys(pricingData).map((periodKey) => (
             <button
-              key={period}
+              key={periodKey}
               className={`period-button ${
-                selectedPeriod === period ? "active" : ""
+                selectedPeriod === periodKey ? "active" : ""
               }`}
-              onClick={() => setSelectedPeriod(period)}
+              onClick={() => setSelectedPeriod(periodKey)}
             >
-              {period}
+              {t(`najem.${periodKey}`)} {/* Apply correct translation */}
             </button>
           ))}
         </div>
 
         <div className="pricing-table">
           <div className="pricing-header">
-            <div className="pricing-column">Število enot</div>
             <div className="pricing-column">
-              {selectedPeriod === "1 teden" ? "Popust" : "Dodatni popust"}
+              {t("najem.tabela.stevilo_enot")}
             </div>
-            <div className="pricing-column">Cena enote na teden</div>
-            <div className="pricing-column">Skupna cena</div>
+            <div className="pricing-column">
+              {selectedPeriod === t("trajanje.one")
+                ? t("najem.tabela.popust")
+                : t("najem.tabela.dodatni_popust")}
+            </div>
+            <div className="pricing-column">{t("najem.tabela.cena")}</div>
+            <div className="pricing-column">{t("najem.tabela.skupna")}</div>
           </div>
-          {pricingData[selectedPeriod].map((item, index) => (
+
+          {/* Prevent error by providing a fallback empty array */}
+          {(pricingData[selectedPeriod] || []).map((item, index) => (
             <div key={index} className="pricing-row">
               <div className="pricing-column">{item.units}</div>
               <div className="pricing-column">{item.discount}</div>
@@ -51,38 +61,28 @@ const PriceList = ({ refs }) => {
         </div>
 
         <div className="price-text right">
-          <p className="small ">*CENE SO BREZ DDV</p>
+          <p className="small">*CENE SO BREZ DDV</p>
         </div>
         <div className="price-text">
           <br />
           <br />
-          <p>Ob najemu stojala vam pripada:</p>{" "}
-          <p className="big">
-            personalizacija stojala z logotipom &#x2022; promocijsko platno, ki
-            ga po vaši želji tudi oblikujemo &#x2022; transport in montaža na
-            željneo mesto v okolici Ljubljane &#x2022; nosilec za letake (po
-            želji)
-          </p>
+          <p>{t("najem.pripada_orange")}</p>{" "}
+          <p className="big">{t("najem.pripada")}</p>
           <br />
-          <p>Dodatna ponudba</p>{" "}
-          <p className="small">
-            transport in montaža stojala na željeno mesto po sloveniji &#x2022;
-            Osvetljeni logo &#x2022; Polepitev stojala v željeno barvo &#x2022;
-            najem za daljše časovno obdobje &#x2022; izdelava ostalega
-            reklamnega materiala materiala.
-          </p>
+          <p>{t("najem.dodatna_orange")}</p>{" "}
+          <p className="small">{t("najem.dodatna_ponudba")}</p>
         </div>
 
         <div className="button-container">
           <button className="request-button" onClick={() => setShowPopup(true)}>
-            Kontakt
+            {t("najem.kontakt")}
           </button>
         </div>
 
         {showPopup && (
           <div className="popup-overlay">
             <div className="popup-content">
-              <h2>Kontaktirajte nas</h2>
+              <h2>{t("najem.kontakt_popup")}</h2>
               <div className="popup-buttons">
                 <a href="mailto:info@brecelj.eu" className="popup-button email">
                   <img src={MailIcon} alt="" />
@@ -95,7 +95,7 @@ const PriceList = ({ refs }) => {
                 onClick={() => setShowPopup(false)}
                 className="popup-button close"
               >
-                Zapri
+                {t("najem.kontakt_zapri")}
               </button>
             </div>
           </div>

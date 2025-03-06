@@ -66,5 +66,37 @@
       "fourth": "4. ENOTA",
       "fifth": "5. ENOTA"
     }
+  },
+  "najem": {
+    "naslov": "NAJEM STOJALA",
+    "podnaslov": "Izberite trajanje najema",
+    "trajanje": {
+      "one": "1 teden",
+      "two": "2 tedna",
+      "three": "3 tedni",
+      "four": "1 mesec"
+    },
+    "tabela": {
+      "stevilo_enot": "Število enot",
+      "popust": "Popust",
+      "dodatni_popust": "Dodatni popust",
+      "cena": "Cena enote na teden",
+      "skupna": "Skupna cena"
+    },
+    "enote": {
+      "third": "3/KOMPLET 1",
+      "fifth": "5/KOMPLET 2"
+    },
+    "cene_ddv": "Cene so brez DDV",
+    "pripada_orange": "Ob najemu stojala vam pripada:",
+    "pripada": "Personalizacija stojala z logotipom \u2022 Promocijsko platno \u2022 Transport in montaža",
+    "dodatna_orange": "Dodatna ponudba",
+    "dodatna_ponudba": "transport in montaža stojala na željeno mesto po Sloveniji \u2022 Osvetljeni logo \u2022 Polepitev stojala v željeno barvo \u2022 najem za daljše časovno obdobje \u2022 izdelava ostalega reklamnega materiala.",
+    "kontakt": "Kontakt",
+    "kontakt_popup": "Kontaktirajte nas",
+    "kontakt_zapri": "Zapri"
+  },
+  "kontakt": {
+    "naslov": "Kontaktirajte nas"
   }
 }

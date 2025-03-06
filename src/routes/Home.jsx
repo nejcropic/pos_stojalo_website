@@ -11,6 +11,7 @@ import Prednosti from "../components/Prednosti/Prednosti";
 import Ponudba from "../components/Ponudba/Ponudba";
 import Dimenzije from "../components/Dimenzije/Dimenzije";
 import { useTranslation } from "react-i18next";
+import LanguageDropdown from "../components/LanguageDropdown/LanguageDropdown";
 
 function Home() {
   const { t } = useTranslation("global");
@@ -49,6 +50,7 @@ function Home() {
         <button onClick={scrollDown} className="scroll-button">
           {t("home.button")}
         </button>
+        <LanguageDropdown />
       </div>
 
       {/* <BackgroundSlider /> */}

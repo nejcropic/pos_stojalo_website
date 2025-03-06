@@ -23,6 +23,8 @@ import Dimenzije2 from "./images/dimenzije2.png";
 import translate_si from "./components/translations/translations_si.json";
 import translate_en from "./components/translations/translations_en.json";
 import translate_de from "./components/translations/translations_de.json";
+import translate_it from "./components/translations/translations_it.json";
+import translate_sh from "./components/translations/translations_sh.json";
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
 
@@ -38,6 +40,12 @@ i18next.init({
     },
     de: {
       global: translate_de,
+    },
+    it: {
+      global: translate_it,
+    },
+    sh: {
+      global: translate_sh,
     },
   },
 });

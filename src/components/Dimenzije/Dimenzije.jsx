@@ -17,13 +17,14 @@ export default function Dimenzije({ refs }) {
     <div className="main-wrapper" ref={refs.dimenzijeRef}>
       <div className="main-container">
         <div className="dimenzije-item ">
-          <img
-            className="dimenzije-bigger"
-            src={Dimenzije2}
-            alt="grafične rešitve, dodana vrednost, blagovna znamka, interakcija"
-          />
+          <div className="dimenzije-image">
+            <img
+              src={Dimenzije2}
+              alt="grafične rešitve, dodana vrednost, blagovna znamka, interakcija"
+            />
+          </div>
           <div className="dimenzije-divider">
-            <div className="text-divider">
+            <div className="dimenzije-text-divider">
               <h2>{t("dimenzije.naslov")}</h2>
               <ul>
                 <li>

@@ -2,12 +2,14 @@ import React from "react";
 import "./Kontakt.css";
 import { Link } from "react-router-dom";
 import { Logo, Logo_transparent } from "../..";
+import { useTranslation } from "react-i18next";
 
 export default function Kontakt({ refs }) {
+  const { t } = useTranslation("global");
   return (
     <div className="main-wrapper" ref={refs.kontaktRef}>
       <div className="main-container center">
-        <h1>KONTAKTIRAJTE NAS:</h1>
+        <h1>{t("kontakt.naslov")}:</h1>
         <div className="kontakt-divider">
           <a href="tel:+38640772130">040 772 130</a>
           <a href="tel:+38641382153">041 382 153</a>
