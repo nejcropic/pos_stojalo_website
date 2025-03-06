@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecdd326a.css",
-    "main.js": "/static/js/main.9b9b23c7.js",
+    "main.css": "/static/css/main.f07f9114.css",
+    "main.js": "/static/js/main.b2f6e88c.js",
     "static/media/skupaj_1.JPG": "/static/media/skupaj_1.e7ac4a2d18dc5d122281.JPG",
     "static/media/dimenzije1.png": "/static/media/dimenzije1.39d6de9941c5e6b67551.png",
     "static/media/skupaj_2.JPG": "/static/media/skupaj_2.e6de869c81cb2cfbf15c.JPG",
@@ -11,15 +11,20 @@
     "static/media/naslovnica.png": "/static/media/naslovnica.51e594299996def9a006.png",
     "static/media/dimenzije2.png": "/static/media/dimenzije2.2ae5a017cce23608efcd.png",
     "static/media/phone-call.png": "/static/media/phone-call.9f67e819001cd616ba13.png",
+    "static/media/united-kingdom.png": "/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
     "static/media/mail.png": "/static/media/mail.7f0432c3a7d36f687c69.png",
+    "static/media/slovenia.png": "/static/media/slovenia.f852fc2cb062a3192eeb.png",
+    "static/media/italy.png": "/static/media/italy.593eba8ff91604e2bcfb.png",
     "static/media/naslovnica_small.jpg": "/static/media/naslovnica_small.846467a39e3735cca655.jpg",
+    "static/media/croatia.png": "/static/media/croatia.49818b51e599cdf57f71.png",
     "static/media/logo.png": "/static/media/logo.c2735bf8bca368ac4008.png",
+    "static/media/germany.png": "/static/media/germany.cc670a050b591bf6656d.png",
     "index.html": "/index.html",
-    "main.ecdd326a.css.map": "/static/css/main.ecdd326a.css.map",
-    "main.9b9b23c7.js.map": "/static/js/main.9b9b23c7.js.map"
+    "main.f07f9114.css.map": "/static/css/main.f07f9114.css.map",
+    "main.b2f6e88c.js.map": "/static/js/main.b2f6e88c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecdd326a.css",
-    "static/js/main.9b9b23c7.js"
+    "static/css/main.f07f9114.css",
+    "static/js/main.b2f6e88c.js"
   ]
 }
