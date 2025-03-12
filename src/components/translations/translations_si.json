@@ -84,7 +84,8 @@
       "popust": "Popust",
       "dodatni_popust": "Dodatni popust",
       "cena": "Cena enote na teden",
-      "skupna": "Skupna cena"
+      "skupna": "Skupna cena",
+      "dnevno": "Dnevni strošek"
     },
     "enote": {
       "third": "3/KOMPLET 1",

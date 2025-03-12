@@ -35,6 +35,7 @@ const PriceList = ({ refs }) => {
             <div className="pricing-column">{t("najem.tabela.popust")}</div>
             <div className="pricing-column">{t("najem.tabela.cena")}</div>
             <div className="pricing-column">{t("najem.tabela.skupna")}</div>
+            <div className="pricing-column">{t("najem.tabela.dnevno")}</div>
           </div>
 
           {/* Display pricing for selected day with five units */}
