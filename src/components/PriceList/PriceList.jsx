@@ -3,12 +3,17 @@ import { usePricingData } from "./PriceListData"; // Ensure the correct import
 import "./PriceList.css";
 import { MailIcon, PhoneIcon } from "../..";
 import { useTranslation } from "react-i18next";
+import PeriodDropdown from "./PriceDropdown";
 
 const PriceList = ({ refs }) => {
   const { t } = useTranslation("global");
   const pricingData = usePricingData(); // Fetch pricing data
-  const [selectedPeriod, setSelectedPeriod] = useState(() => t("trajanje.one"));
-  // Use translated key
+
+  // Store selectedPeriod as a number (default to first key in pricingData)
+  const [selectedPeriod, setSelectedPeriod] = useState(() =>
+    parseInt(Object.keys(pricingData)[0], 10)
+  );
+
   const [showPopup, setShowPopup] = useState(false);
 
   return (
@@ -17,44 +22,39 @@ const PriceList = ({ refs }) => {
         <h1>{t("najem.naslov")}</h1>
         <p className="subtitle">{t("najem.podnaslov")}</p>
 
-        <div className="button-container">
-          {Object.keys(pricingData).map((periodKey) => (
-            <button
-              key={periodKey}
-              className={`period-button ${
-                selectedPeriod === periodKey ? "active" : ""
-              }`}
-              onClick={() => setSelectedPeriod(periodKey)}
-            >
-              {t(`najem.${periodKey}`)} {/* Apply correct translation */}
-            </button>
-          ))}
-        </div>
+        <PeriodDropdown
+          selectedPeriod={selectedPeriod}
+          setSelectedPeriod={setSelectedPeriod}
+        />
 
         <div className="pricing-table">
           <div className="pricing-header">
             <div className="pricing-column">
               {t("najem.tabela.stevilo_enot")}
             </div>
-            <div className="pricing-column">
-              {selectedPeriod === t("trajanje.one")
-                ? t("najem.tabela.popust")
-                : t("najem.tabela.dodatni_popust")}
-            </div>
+            <div className="pricing-column">{t("najem.tabela.popust")}</div>
             <div className="pricing-column">{t("najem.tabela.cena")}</div>
             <div className="pricing-column">{t("najem.tabela.skupna")}</div>
           </div>
 
-          {/* Prevent error by providing a fallback empty array */}
+          {/* Display pricing for selected day with five units */}
           {(pricingData[selectedPeriod] || []).map((item, index) => (
             <div key={index} className="pricing-row">
               <div className="pricing-column">{item.units}</div>
-              <div className="pricing-column">{item.discount}</div>
               <div className="pricing-column">
-                {parseFloat(item.pricePerUnit).toFixed(1).replace(".", ",")} €{" "}
+                {(item.discount * 100).toFixed(2).replace(".", ",")} %
               </div>
+              {/* Brez popusta */}
               <div className="pricing-column">
-                {parseFloat(item.finalPrice).toFixed(1).replace(".", ",")} €{" "}
+                {parseFloat(item.pricePerUnit).toFixed(2).replace(".", ",")} €
+              </div>
+              {/* Končna cena */}
+              <div className="pricing-column">
+                {parseFloat(item.finalPrice).toFixed(2).replace(".", ",")} €
+              </div>
+              {/* Dnevni strošek */}
+              <div className="pricing-column">
+                {parseFloat(item.dailyCost).toFixed(2).replace(".", ",")} €
               </div>
             </div>
           ))}
@@ -66,10 +66,10 @@ const PriceList = ({ refs }) => {
         <div className="price-text">
           <br />
           <br />
-          <p>{t("najem.pripada_orange")}</p>{" "}
+          <p>{t("najem.pripada_orange")}</p>
           <p className="big">{t("najem.pripada")}</p>
           <br />
-          <p>{t("najem.dodatna_orange")}</p>{" "}
+          <p>{t("najem.dodatna_orange")}</p>
           <p className="small">{t("najem.dodatna_ponudba")}</p>
         </div>
 

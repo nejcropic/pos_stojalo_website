@@ -71,10 +71,13 @@
     "naslov": "NAJEM STOJALA",
     "podnaslov": "Izberite trajanje najema",
     "trajanje": {
-      "one": "1 teden",
-      "two": "2 tedna",
-      "three": "3 tedni",
-      "four": "1 mesec"
+      "1": "1 dan",
+      "2": "2 dni",
+      "3": "3 dni",
+      "4": "4 dni",
+      "5": "5 dni",
+      "6": "6 dni",
+      "7": "7 dni"
     },
     "tabela": {
       "stevilo_enot": "Število enot",
