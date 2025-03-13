@@ -71,18 +71,21 @@
     "naslov": "NAJAM STALAKA",
     "podnaslov": "Odaberite trajanje najma",
     "trajanje": {
-      "one": "1 tjedan",
-      "two": "2 tjedna",
-      "three": "3 tjedna",
-      "four": "1 mjesec"
+      "1": "1 dan",
+      "2": "2 dana",
+      "3": "3 dana",
+      "4": "4 dana",
+      "5": "5 dana",
+      "6": "6 dana",
+      "7": "7 dana"
     },
-
     "tabela": {
       "stevilo_enot": "Broj jedinica",
       "popust": "Popust",
       "dodatni_popust": "Dodatni popust",
-      "cena": "Cijena jedinice tjedno",
-      "skupna": "Ukupna cijena"
+      "cena": "Cena bez popusta",
+      "skupna": "Konačna cena",
+      "dnevno": "Dnevni trošak iznajmljivanja jednog štanda"
     },
     "enote": {
       "third": "3/SET 1",

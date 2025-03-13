@@ -70,19 +70,23 @@
   "najem": {
     "naslov": "STÄNDER MIETEN",
     "podnaslov": "Wählen Sie die Mietdauer",
-    "trajanje": {
-      "one": "1 Woche",
-      "two": "2 Wochen",
-      "three": "3 Wochen",
-      "four": "1 Monat"
-    },
 
+    "trajanje": {
+      "1": "1 Tag",
+      "2": "2 Tage",
+      "3": "3 Tage",
+      "4": "4 Tage",
+      "5": "5 Tage",
+      "6": "6 Tage",
+      "7": "7 Tage"
+    },
     "tabela": {
       "stevilo_enot": "Anzahl der Einheiten",
       "popust": "Rabatt",
       "dodatni_popust": "Zusätzlicher Rabatt",
-      "cena": "Preis pro Einheit pro Woche",
-      "skupna": "Gesamtpreis"
+      "cena": "Preis ohne Rabatt",
+      "skupna": "Endpreis",
+      "dnevno": "Tägliche Mietkosten für einen Stand"
     },
     "enote": {
       "third": "3/SET 1",

@@ -71,18 +71,21 @@
     "naslov": "NOLEGGIO SUPPORTO",
     "podnaslov": "Seleziona la durata del noleggio",
     "trajanje": {
-      "one": "1 settimana",
-      "two": "2 settimane",
-      "three": "3 settimane",
-      "four": "1 mese"
+      "1": "1 giorno",
+      "2": "2 giorni",
+      "3": "3 giorni",
+      "4": "4 giorni",
+      "5": "5 giorni",
+      "6": "6 giorni",
+      "7": "7 giorni"
     },
-
     "tabela": {
       "stevilo_enot": "Numero di unità",
       "popust": "Sconto",
       "dodatni_popust": "Sconto aggiuntivo",
-      "cena": "Prezzo per unità a settimana",
-      "skupna": "Prezzo totale"
+      "cena": "Prezzo senza sconto",
+      "skupna": "Prezzo finale",
+      "dnevno": "Costo giornaliero di noleggio di uno stand"
     },
     "enote": {
       "third": "3/SET 1",
